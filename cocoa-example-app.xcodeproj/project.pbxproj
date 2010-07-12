@@ -13,6 +13,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		C19122D311E594BC00B7133C /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = C19122D211E594BC00B7133C /* Converter.m */; };
+		C19122E211EAE3CB00B7133C /* ConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19122E111EAE3CB00B7133C /* ConverterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		8D1107320486CEB800E47090 /* cocoa-example-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocoa-example-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19122D111E594BC00B7133C /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
 		C19122D211E594BC00B7133C /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		C19122E011EAE3CB00B7133C /* ConverterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterController.h; sourceTree = "<group>"; };
+		C19122E111EAE3CB00B7133C /* ConverterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 				256AC3D90F4B6AC300CF3369 /* cocoa_example_appAppDelegate.m */,
 				C19122D111E594BC00B7133C /* Converter.h */,
 				C19122D211E594BC00B7133C /* Converter.m */,
+				C19122E011EAE3CB00B7133C /* ConverterController.h */,
+				C19122E111EAE3CB00B7133C /* ConverterController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* cocoa_example_appAppDelegate.m in Sources */,
 				C19122D311E594BC00B7133C /* Converter.m in Sources */,
+				C19122E211EAE3CB00B7133C /* ConverterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
