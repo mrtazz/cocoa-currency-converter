@@ -12,7 +12,7 @@
     float sourceCurrencyAmount, rate;
 }
 
-@property (retain) float sourceCurrencyAmount, rate;
+@property (readwrite) float sourceCurrencyAmount, rate;
 
 - (float) convertCurrency;
 

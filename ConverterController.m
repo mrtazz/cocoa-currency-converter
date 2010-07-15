@@ -21,6 +21,6 @@
 
   [amountField setFloatValue:amount];
 
-  [rateField selectText:self]
+  [rateField selectText:self];
 }
 @end
